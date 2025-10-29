@@ -1,0 +1,5 @@
+codes to run 
+
+bun remove tailwindcss
+bun add -d tailwindcss@3.4.10 postcss autoprefixer
+bunx tailwindcss init -p
