@@ -3,6 +3,8 @@ import Navbar from './components/navbar'
 import { Home } from './pages/Home'
 import { Projects } from './pages/Projects'
 import { About } from './pages/About'
+import Skills from './pages/Skills'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Projects />
+      {/* <Projects /> */}
+      <Skills />
+      <Footer />
     </MainLayout>
   )
 }

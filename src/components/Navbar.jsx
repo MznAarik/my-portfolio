@@ -10,7 +10,7 @@ export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 right-0 backdrop-blur-5xl shadow-md px-6 md:px-20 py-4 flex justify-between items-center z-50">
+        <nav className="fixed top-0 left-0 right-0 backdrop-blur-3xl shadow-md px-6 md:px-20 py-4 flex justify-between items-center z-50">
             {/* Logo */}
             <a
                 href="#home"
@@ -23,25 +23,25 @@ export default function Navbar() {
             <div className="hidden md:flex gap-8">
                 <a
                     href="#about"
-                    className="inline-flex items-center text-foreground hover:text-primary hover:scale-105 hover:animate-pulse transition-transform duration-100"
+                    className="inline-flex items-center text-foreground hover:text-primary hover:scale-105 hover:animate-pulse transition-transform duration-100 snap-start scroll-mt-20"
                 >
                     <InfoIcon className="mr-1" /> About
                 </a>
                 <a
                     href="#projects"
-                    className="inline-flex items-center text-foreground hover:text-primary hover:scale-105 hover:animate-pulse transition-transform duration-100"
+                    className="inline-flex items-center text-foreground hover:text-primary hover:scale-105 hover:animate-pulse transition-transform duration-100 snap-start scroll-mt-20"
                 >
                     <PhotoFilterIcon className="mr-1" /> Projects
                 </a>
                 <a
                     href="#skills"
-                    className="inline-flex items-center text-foreground hover:text-primary hover:scale-105 hover:animate-pulse transition-transform duration-100"
+                    className="inline-flex items-center text-foreground hover:text-primary hover:scale-105 hover:animate-pulse transition-transform duration-100 snap-start scroll-mt-20"
                 >
                     <QueryStatsIcon className="mr-1" /> Skills
                 </a>
                 <a
                     href="#contact"
-                    className="inline-flex items-center text-foreground hover:text-primary hover:scale-105 hover:animate-pulse transition-transform duration-100"
+                    className="inline-flex items-center text-foreground hover:text-primary hover:scale-105 hover:animate-pulse transition-transform duration-100 snap-start scroll-mt-20"
                 >
                     <ContactEmergencyIcon className="mr-1" /> Contact
                 </a>
@@ -57,7 +57,7 @@ export default function Navbar() {
 
             {/* Mobile Menu Drawer */}
             {menuOpen && (
-                <div className={`absolute top-full ms-[180px] rounded-xl left-auto w-fit p-6 backdrop-blur-2xl overflow-hidden  duration-500 shadow-md items-center py-4 space-y-4 md:hidden`}>
+                <div className={`absolute top-full ms-[210px] rounded-xl left-auto w-fit p-5 overflow-hidden bg-teal-100 duration-500 shadow-md items-center py-4 space-y-4 md:hidden`}>
                     <a
                         href="#about"
                         onClick={() => setMenuOpen(false)}
