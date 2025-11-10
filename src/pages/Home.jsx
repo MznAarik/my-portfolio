@@ -11,7 +11,7 @@ export const Home = () => {
 
             <div className="flex flex-col justify-center items-center min-h-screen px-4 md:bg-background not-sm:bg-gray-200" id="home">
                 <div className="shadow-md backdrop-blur-2xl p-6 mt-20 flex flex-col items-center w-full max-w-3xl text-center rounded-2xl not-sm:bg-background">
-                    <div className="text-primary border-2 border-accent bg-[#caebee] rounded-full mt-4 px-4 py-2 w-fit cursor-pointer hover:animate-pulse shadow-md">
+                    <div className="text-primary border-2 border-accent bg-[#b8d6d9] rounded-full mt-4 px-4 py-2 w-fit cursor-pointer animate-pulse shadow-md">
                         Welcome to my portfolio
                     </div>
 
@@ -21,8 +21,8 @@ export const Home = () => {
                     </div>
 
                     <p className="p-4 sm:p-6 md:p-8 text-sm sm:text-base text-gray-700">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, impedit.
-                        Iusto inventore similique quos odit laudantium obcaecati, sunt quia nulla vero quasi!
+                        Full-Stack Developer who loves solving real problems with smart code.
+                        Simple, fast, and built with purpose.
                     </p>
 
                     <div className="action-buttons flex flex-col sm:flex-row gap-4 sm:gap-6 mb-6">
@@ -36,6 +36,7 @@ export const Home = () => {
                         <Button
                             className="bg-transparent border-2 border-primary text-primary rounded-md hover:shadow-lg"
                             endIcon={<SendRoundedIcon />}
+                            href='#contact'
                         >
                             Contact
                         </Button>

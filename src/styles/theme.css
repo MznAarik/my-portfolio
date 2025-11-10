@@ -4,7 +4,7 @@
 
 :root {
     /* Light theme colors */
-    --background: oklch(93.867% 0.0149 197.299);
+    --background: oklch(87.938% 0.01724 197.165);
     --foreground: oklch(0.15 0 0);
     --primary: oklch(0.5 0.15 200);
     --primary-foreground: oklch(1 0 0);

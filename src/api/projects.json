@@ -1,0 +1,32 @@
+[
+  {
+    "title": "E-commerce Website",
+    "description": "A full-featured e-commerce website built with React and Node.js, featuring user authentication, product listings, shopping cart, and payment integration.",
+    "imageUrl": "/images/ecommerce.png",
+    "link": "https://example.com/ecommerce"
+  },
+  {
+    "title": "QR Attendance System",
+    "description": "A QR code-based attendance system built with php and python for api, allowing users to make attendance and out using QR codes.",
+    "imageUrl": "/images/qr-attendance.png",
+    "link": "https://example.com/qr-attendance"
+  },
+  {
+    "title":"Ticket Booking System",
+    "description":"A ticket booking system for events and movies, developed using Django and PostgreSQL, with features like seat selection, booking history, and email notifications.",
+    "imageUrl": "/images/ticket-booking.png", 
+    "link": "https://example.com/ticket-booking"
+  },
+  {
+    "title":"Personal Portfolio Website",
+    "description":"A personal portfolio website showcasing projects, skills, and experience, built with HTML, CSS, and JavaScript.",
+    "imageUrl": "/images/portfolio.png", 
+    "link": "https://example.com/portfolio"
+  },
+  {
+    "title":"Static Designs",
+    "description":"A collection of static web designs created using Figma, demonstrating various UI/UX concepts and design principles.",
+    "imageUrl": "/images/static-designs.png",
+    "link": "https://example.com/static-designs"
+  }
+]

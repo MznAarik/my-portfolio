@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <section
             id="contact"
-            className="relative py-20 px-6 bg-linear-to-br from-teal-50 via-white to-teal-100"
+            className="relative py-20 px-6 bg-linear-to-br from-gray-100 via-gray-200 to-teal-100"
         >
             {/* Header */}
             <div className="text-center mb-12">
@@ -53,7 +53,7 @@ const Contact = () => {
                     <div>
                         <label
                             htmlFor="name"
-                            className="block text-sm font-medium text-primary mb-1"
+                            className="block text-md font-semibold text-primary mb-1"
                         >
                             Name
                         </label>
@@ -68,14 +68,14 @@ const Contact = () => {
                     <div>
                         <label
                             htmlFor="email"
-                            className="block text-sm font-medium text-primary mb-1"
+                            className="block text-md font-semibold text-primary mb-1"
                         >
                             Email
                         </label>
                         <input
                             type="email"
                             id="email"
-                            placeholder="your_email@gmail.com"
+                            placeholder="Enter your email"
                             className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
                         />
                     </div>
@@ -83,7 +83,7 @@ const Contact = () => {
                     <div>
                         <label
                             htmlFor="message"
-                            className="block text-sm font-medium text-primary mb-1"
+                            className="block text-md font-semibold text-primary mb-1"
                         >
                             Message
                         </label>
@@ -107,7 +107,7 @@ const Contact = () => {
             <div className="absolute top-0 left-0 w-32 h-32 bg-teal-300 rounded-full blur-3xl opacity-20"></div>
 
             <div className="copyright mb-4 text-center text-gray-600 mt-12">
-                <span> ©️ 2025 My Portfolio. All rights reserved.</span>
+                <span className="text-gray-800"> <span className="text-primary">&copy; 2025 </span>My Portfolio. All rights reserved.</span>
             </div>
 
         </section>
